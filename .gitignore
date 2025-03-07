@@ -1,0 +1,56 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by testing tools
+coverage/
+.nyc_output/
+
+# Build directories
+dist/
+build/
+
+# Cache directories
+.npm/
+.eslintcache
+.cache
+
+# Optional REPL history
+.node_repl_history
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# MongoDB local data (if using local MongoDB)
+data/db/
+
+# Jest
+jest.config.js.map
+
+# npm package files (if publishing as a package)
+package-lock.json
+yarn.lock
+
+# Uploaded files (if your app handles file uploads)
+uploads/
+public/uploads/ 
